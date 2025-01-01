@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "dp+EvyfYobk=",
+  "success": true,
+  "projectFilePath": "/home/bombadil/.local/share/vscode-sqltools/session/CaeliDomusRD/CaeliDomusRD/CaeliDomusRD.csproj",
+  "expectedPackageFiles": [
+    "/home/bombadil/.nuget/packages/freesql/3.5.102/freesql.3.5.102.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/freesql.provider.mysqlconnector/3.5.102/freesql.provider.mysqlconnector.3.5.102.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/microsoft.extensions.configuration/9.0.0/microsoft.extensions.configuration.9.0.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.0/microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.2/microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/microsoft.extensions.primitives/9.0.0/microsoft.extensions.primitives.9.0.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/mysqlconnector/2.4.0/mysqlconnector.2.4.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/system.device.gpio/3.2.0/system.device.gpio.3.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
