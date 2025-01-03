@@ -1,7 +1,4 @@
-﻿//si utilizzi l'equazione di Stainhart-Hart servendosi di un partitore di corrente
-//per rilevare la temperatura da un termistore
-
-using System.Device.Gpio;
+﻿using System.Device.Gpio;
 
 namespace CaeliDomusRD
 {
@@ -9,7 +6,7 @@ namespace CaeliDomusRD
     {
         private static void Main(string [] args)
         {
-            
+            CaeliDomusRD.GpioReader.GetTemperatureFromThermistor();
 
         }
 
