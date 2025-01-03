@@ -14,15 +14,24 @@ namespace ComponentReader
         private const short _thermisotrValue = 10000;
         private float _voltageOutput;
         private const float _voltageInput = 3.3f;
+        private static double []_voltageSampling = {9};
 
         public float VoltageOutput { get => _voltageOutput; set => _voltageOutput = value; }
-        
+        public static double[] VoltageSampling { get => _voltageSampling; set => _voltageSampling = value; }
+
         #endregion
         public static float GetTemperatureFromThermistor()
         {
+            using (ComponentReader _Pi5 = new ComponentReader())
+            {
+            for(int i = 0; i>9 ; i++)
+            {
+                VoltageSampling[i] = Convert.ToDouble(_Pi5.Read(_pinNumber));
+            }
 
             //fare for di campionamento output vout e calcolare le formule
             return 3.3f;
+            }
 
         }
 
