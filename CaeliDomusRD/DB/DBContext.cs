@@ -1,3 +1,4 @@
+using CaeliDomusRD.Services;
 using FreeSql;
 using FreeSql.Extensions.EntityUtil;
 using Microsoft.Extensions.Configuration;
@@ -11,19 +12,14 @@ namespace DBContext
     internal class DB : IDisposable
     {
         private IFreeSql _db;
-        private string _config;
+        private JsonConfigurationHandler _config = new JsonConfigurationHandler();
         public IFreeSql Db { get => _db; set => _db = value; }
-        public string Config { get => _config; set => _config = value; }
+        public JsonConfigurationHandler Config { get => _config; set => _config = value; }
 
         public DB()
         {
-            var configuration = new ConfigurationBuilder()
-                        .SetBasePath("C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD")
-                        .AddJsonFile("appsettings.json")
-                        .Build(); 
-            Config = configuration.GetConnectionString("CaeliDomusRD");
-            Db = new FreeSql.FreeSqlBuilder()
-          .UseConnectionString(FreeSql.DataType.Sqlite, Config)
+            Db = new FreeSqlBuilder()
+          .UseConnectionString(DataType.MySql, Config.JsonConfiguration.GetConnectionString("CaeliDomusRD"))
           .UseAutoSyncStructure(true) //automatically synchronize the entity structure to the database
           .Build();
         }

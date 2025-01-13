@@ -83,16 +83,21 @@ namespace CaeliDomusRD
 
             //scrivo a db
 
-            using (DB _temperatureRD = new DB()) 
-            { 
+            using (DB _temperatureRD = new DB())
+            {
                 Temperature temperature = new Temperature();
 
                 temperature.TemperatureValue = 1;
                 temperature.ReadTime = DateTime.Now;
+                try
+                {
+                    _temperatureRD.Db.Insert<Temperature>(temperature).ExecuteAffrows();
+                }
+                catch (Exception e) 
+                {
 
-                _temperatureRD.Db.Insert<Temperature>(temperature);
-                
-            }
+                }
+                }
 
             
         }
