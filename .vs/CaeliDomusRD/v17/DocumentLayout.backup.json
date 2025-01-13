@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|c:\\users\\aryricky\\documents\\github\\caelidomusrd\\caelidomusrd\\db\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|solutionrelative:caelidomusrd\\db\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|c:\\users\\aryricky\\documents\\github\\caelidomusrd\\caelidomusrd\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|solutionrelative:caelidomusrd\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|c:\\users\\aryricky\\documents\\github\\caelidomusrd\\caelidomusrd\\thermistorreader\\gpioreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|solutionrelative:caelidomusrd\\thermistorreader\\gpioreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|c:\\users\\aryricky\\documents\\github\\caelidomusrd\\caelidomusrd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|solutionrelative:caelidomusrd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\DB\\DBContext.cs",
+              "RelativeDocumentMoniker": "CaeliDomusRD\\DB\\DBContext.cs",
+              "ToolTip": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\DB\\DBContext.cs",
+              "RelativeToolTip": "CaeliDomusRD\\DB\\DBContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:07:03.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\appsettings.json",
+              "RelativeDocumentMoniker": "CaeliDomusRD\\appsettings.json",
+              "ToolTip": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\appsettings.json",
+              "RelativeToolTip": "CaeliDomusRD\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-06T18:52:41.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GpioReader.cs",
+              "DocumentMoniker": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\ThermistorReader\\GpioReader.cs",
+              "RelativeDocumentMoniker": "CaeliDomusRD\\ThermistorReader\\GpioReader.cs",
+              "ToolTip": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\ThermistorReader\\GpioReader.cs",
+              "RelativeToolTip": "CaeliDomusRD\\ThermistorReader\\GpioReader.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAIwFUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:54:03.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\Program.cs",
+              "RelativeDocumentMoniker": "CaeliDomusRD\\Program.cs",
+              "ToolTip": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\Program.cs",
+              "RelativeToolTip": "CaeliDomusRD\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:08:51.136Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

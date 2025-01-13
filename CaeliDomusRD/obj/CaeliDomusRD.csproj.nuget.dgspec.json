@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/bombadil/.local/share/vscode-sqltools/session/CaeliDomusRD/CaeliDomusRD/CaeliDomusRD.csproj": {}
+    "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\CaeliDomusRD.csproj": {}
   },
   "projects": {
-    "/home/bombadil/.local/share/vscode-sqltools/session/CaeliDomusRD/CaeliDomusRD/CaeliDomusRD.csproj": {
+    "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\CaeliDomusRD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/bombadil/.local/share/vscode-sqltools/session/CaeliDomusRD/CaeliDomusRD/CaeliDomusRD.csproj",
+        "projectUniqueName": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\CaeliDomusRD.csproj",
         "projectName": "CaeliDomusRD",
-        "projectPath": "/home/bombadil/.local/share/vscode-sqltools/session/CaeliDomusRD/CaeliDomusRD/CaeliDomusRD.csproj",
-        "packagesPath": "/home/bombadil/.nuget/packages/",
-        "outputPath": "/home/bombadil/.local/share/vscode-sqltools/session/CaeliDomusRD/CaeliDomusRD/obj/",
+        "projectPath": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\CaeliDomusRD.csproj",
+        "packagesPath": "C:\\Users\\AryRicky\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/bombadil/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\AryRicky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -55,9 +62,17 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "SSH.NET": {
+              "target": "Package",
+              "version": "[2024.2.0, )"
             },
             "System.Device.Gpio": {
               "target": "Package",
@@ -80,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
