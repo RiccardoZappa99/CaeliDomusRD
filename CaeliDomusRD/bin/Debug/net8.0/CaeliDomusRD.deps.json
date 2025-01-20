@@ -14,7 +14,7 @@
           "Microsoft.Extensions.Configuration.Json": "9.0.0",
           "Newtonsoft.Json": "13.0.3",
           "SSH.NET": "2024.2.0",
-          "System.Device.Gpio": "3.2.0"
+          "nanoFramework.Iot.Device.Bmxx80": "1.2.737"
         },
         "runtime": {
           "CaeliDomusRD.dll": {}
@@ -172,6 +172,89 @@
           }
         }
       },
+      "nanoFramework.CoreLibrary/1.15.5": {},
+      "nanoFramework.Iot.Device.Bmxx80/1.2.737": {
+        "dependencies": {
+          "UnitsNet.nanoFramework.Duration": "5.65.0",
+          "UnitsNet.nanoFramework.ElectricResistance": "5.65.0",
+          "UnitsNet.nanoFramework.Length": "5.65.0",
+          "UnitsNet.nanoFramework.Pressure": "5.65.0",
+          "UnitsNet.nanoFramework.RelativeHumidity": "5.65.0",
+          "UnitsNet.nanoFramework.Temperature": "5.65.0",
+          "nanoFramework.CoreLibrary": "1.15.5",
+          "nanoFramework.Iot.Device.Common.WeatherHelper": "1.2.715",
+          "nanoFramework.System.Buffers.Binary.BinaryPrimitives": "1.2.699",
+          "nanoFramework.System.Device.I2c": "1.1.16",
+          "nanoFramework.System.Device.Model": "1.2.693",
+          "nanoFramework.System.Math": "1.5.43"
+        },
+        "runtime": {
+          "lib/Iot.Device.Bmxx80.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.737.57867"
+          }
+        }
+      },
+      "nanoFramework.Iot.Device.Common.WeatherHelper/1.2.715": {
+        "dependencies": {
+          "UnitsNet.nanoFramework.Length": "5.65.0",
+          "UnitsNet.nanoFramework.Pressure": "5.65.0",
+          "UnitsNet.nanoFramework.RelativeHumidity": "5.65.0",
+          "UnitsNet.nanoFramework.Temperature": "5.65.0",
+          "nanoFramework.CoreLibrary": "1.15.5",
+          "nanoFramework.System.Math": "1.5.43"
+        },
+        "runtime": {
+          "lib/Iot.Device.Common.WeatherHelper.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.715.3521"
+          }
+        }
+      },
+      "nanoFramework.System.Buffers.Binary.BinaryPrimitives/1.2.699": {
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5"
+        },
+        "runtime": {
+          "lib/System.Buffers.Binary.BinaryPrimitives.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.699.6622"
+          }
+        }
+      },
+      "nanoFramework.System.Device.I2c/1.1.16": {
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5"
+        },
+        "runtime": {
+          "lib/System.Device.I2c.dll": {
+            "assemblyVersion": "1.1.16.0",
+            "fileVersion": "1.1.16.1335"
+          }
+        }
+      },
+      "nanoFramework.System.Device.Model/1.2.693": {
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5"
+        },
+        "runtime": {
+          "lib/System.Device.Model.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.693.35360"
+          }
+        }
+      },
+      "nanoFramework.System.Math/1.5.43": {
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5"
+        },
+        "runtime": {
+          "lib/System.Math.dll": {
+            "assemblyVersion": "1.5.43.0",
+            "fileVersion": "1.5.43.62114"
+          }
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
@@ -188,14 +271,6 @@
           "lib/net8.0/Renci.SshNet.dll": {
             "assemblyVersion": "2024.2.0.1",
             "fileVersion": "2024.2.0.1"
-          }
-        }
-      },
-      "System.Device.Gpio/3.2.0": {
-        "runtime": {
-          "lib/net6.0/System.Device.Gpio.dll": {
-            "assemblyVersion": "3.2.0.0",
-            "fileVersion": "3.200.24.32001"
           }
         }
       },
@@ -232,6 +307,73 @@
           "lib/net8.0/System.Text.Json.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "UnitsNet.nanoFramework.Duration/5.65.0": {
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5"
+        },
+        "runtime": {
+          "lib/UnitsNet.Duration.dll": {
+            "assemblyVersion": "5.65.0.0",
+            "fileVersion": "5.65.0.0"
+          }
+        }
+      },
+      "UnitsNet.nanoFramework.ElectricResistance/5.65.0": {
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5"
+        },
+        "runtime": {
+          "lib/UnitsNet.ElectricResistance.dll": {
+            "assemblyVersion": "5.65.0.0",
+            "fileVersion": "5.65.0.0"
+          }
+        }
+      },
+      "UnitsNet.nanoFramework.Length/5.65.0": {
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5"
+        },
+        "runtime": {
+          "lib/UnitsNet.Length.dll": {
+            "assemblyVersion": "5.65.0.0",
+            "fileVersion": "5.65.0.0"
+          }
+        }
+      },
+      "UnitsNet.nanoFramework.Pressure/5.65.0": {
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5",
+          "nanoFramework.System.Math": "1.5.43"
+        },
+        "runtime": {
+          "lib/UnitsNet.Pressure.dll": {
+            "assemblyVersion": "5.65.0.0",
+            "fileVersion": "5.65.0.0"
+          }
+        }
+      },
+      "UnitsNet.nanoFramework.RelativeHumidity/5.65.0": {
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5"
+        },
+        "runtime": {
+          "lib/UnitsNet.RelativeHumidity.dll": {
+            "assemblyVersion": "5.65.0.0",
+            "fileVersion": "5.65.0.0"
+          }
+        }
+      },
+      "UnitsNet.nanoFramework.Temperature/5.65.0": {
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5"
+        },
+        "runtime": {
+          "lib/UnitsNet.Temperature.dll": {
+            "assemblyVersion": "5.65.0.0",
+            "fileVersion": "5.65.0.0"
           }
         }
       }
@@ -341,6 +483,55 @@
       "path": "mysqlconnector/2.4.0",
       "hashPath": "mysqlconnector.2.4.0.nupkg.sha512"
     },
+    "nanoFramework.CoreLibrary/1.15.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u2+GvAp1uxLrGdILACAZy+EVKOs28EQ52j8Lz7599egXZ3GBGejjnR2ofhjMQwzrJLlgtyrsx8nSLngDfJNsAg==",
+      "path": "nanoframework.corelibrary/1.15.5",
+      "hashPath": "nanoframework.corelibrary.1.15.5.nupkg.sha512"
+    },
+    "nanoFramework.Iot.Device.Bmxx80/1.2.737": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jKOXAlG4DQUGyPnp6qWYvj2ZgL52pJAeCKVI4e+CAJPyDKGaLdmLNQxiZhbgVVVeL7Kfdn2SbHeL0zFnauXSKA==",
+      "path": "nanoframework.iot.device.bmxx80/1.2.737",
+      "hashPath": "nanoframework.iot.device.bmxx80.1.2.737.nupkg.sha512"
+    },
+    "nanoFramework.Iot.Device.Common.WeatherHelper/1.2.715": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1/GQ7KWSuuuyaQc/uk1mcmEDbKJ/yPqkWyAnwMeUNiQGoHvOI+UTnS3fzfTqgiAld7YbC2uNMoV+EXNQYC3kLA==",
+      "path": "nanoframework.iot.device.common.weatherhelper/1.2.715",
+      "hashPath": "nanoframework.iot.device.common.weatherhelper.1.2.715.nupkg.sha512"
+    },
+    "nanoFramework.System.Buffers.Binary.BinaryPrimitives/1.2.699": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OhR1PNfnToj+1Gun1BA8Uk4mhJW6HWZeW2EKPhHozVlzSLUOUOkjVko2Vje5qCmvA2EuAi8AxKJec/vad9TV0g==",
+      "path": "nanoframework.system.buffers.binary.binaryprimitives/1.2.699",
+      "hashPath": "nanoframework.system.buffers.binary.binaryprimitives.1.2.699.nupkg.sha512"
+    },
+    "nanoFramework.System.Device.I2c/1.1.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-33YPnlZVjFwx0mOhdKTOggx+TvbjTD3WZ6rkSB33ytF9fHoqfvS1AYr4+ScUHW4z2yE7vxVWBol5mI7iEg4Aiw==",
+      "path": "nanoframework.system.device.i2c/1.1.16",
+      "hashPath": "nanoframework.system.device.i2c.1.1.16.nupkg.sha512"
+    },
+    "nanoFramework.System.Device.Model/1.2.693": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qqtaeVyJar8vCSV9NdOluPs9DbcCM/j2xH8PDbzbOQXnKJ25+2s2hr48OHvmf1m+FUnXYXRHupf5qhWiB4mSUw==",
+      "path": "nanoframework.system.device.model/1.2.693",
+      "hashPath": "nanoframework.system.device.model.1.2.693.nupkg.sha512"
+    },
+    "nanoFramework.System.Math/1.5.43": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JEOEGHoIpknJFwPjjz77sT5mej2PiT7JTv59jabzFf+d8XYy8Z4SH+NdX00Xc/yDS8LIPuWb7+C245XGUUx99A==",
+      "path": "nanoframework.system.math/1.5.43",
+      "hashPath": "nanoframework.system.math.1.5.43.nupkg.sha512"
+    },
     "Newtonsoft.Json/13.0.3": {
       "type": "package",
       "serviceable": true,
@@ -354,13 +545,6 @@
       "sha512": "sha512-9r+4UF2P51lTztpd+H7SJywk7WgmlWB//Cm2o96c6uGVZU5r58ys2/cD9pCgTk0zCdSkfflWL1WtqQ9I4IVO9Q==",
       "path": "ssh.net/2024.2.0",
       "hashPath": "ssh.net.2024.2.0.nupkg.sha512"
-    },
-    "System.Device.Gpio/3.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-jaL93IC1S2wZfCSLWt8/1lQCp/pDAzDNE5dfLq+pubEhCp0BjDZze6rJMu2KdOuCOeRxHmBuhtWrIRlrTKFsTg==",
-      "path": "system.device.gpio/3.2.0",
-      "hashPath": "system.device.gpio.3.2.0.nupkg.sha512"
     },
     "System.IO.Pipelines/9.0.0": {
       "type": "package",
@@ -382,6 +566,48 @@
       "sha512": "sha512-js7+qAu/9mQvnhA4EfGMZNEzXtJCDxgkgj8ohuxq/Qxv+R56G+ljefhiJHOxTNiw54q8vmABCWUwkMulNdlZ4A==",
       "path": "system.text.json/9.0.0",
       "hashPath": "system.text.json.9.0.0.nupkg.sha512"
+    },
+    "UnitsNet.nanoFramework.Duration/5.65.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/4K4JoEa+EVjBA/+7UK6hCQjFtamjmJudrU50dT1PGUxYR18djnsHgcP9GWS18jnf7dWWPGRny2pXC/58fzzPw==",
+      "path": "unitsnet.nanoframework.duration/5.65.0",
+      "hashPath": "unitsnet.nanoframework.duration.5.65.0.nupkg.sha512"
+    },
+    "UnitsNet.nanoFramework.ElectricResistance/5.65.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IxBYDPOBp2zZCrzxESwigHlnAD5A9uHvYITaLkf3VTnD2QIkFyYCBVMrYz2fh19xllTTzAfF/fKq0C2gi9d6LA==",
+      "path": "unitsnet.nanoframework.electricresistance/5.65.0",
+      "hashPath": "unitsnet.nanoframework.electricresistance.5.65.0.nupkg.sha512"
+    },
+    "UnitsNet.nanoFramework.Length/5.65.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F2SvIsRvTWiKHUdg7KGZT/XHA2ZjKQFNkoDDFWW6rgvuBjcftMEvke0fDXz8WI4pacsIhvh8xVJkWy4Js+qi3g==",
+      "path": "unitsnet.nanoframework.length/5.65.0",
+      "hashPath": "unitsnet.nanoframework.length.5.65.0.nupkg.sha512"
+    },
+    "UnitsNet.nanoFramework.Pressure/5.65.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ci3M0PtwK/ycw47zkni3TpZMzMyEOyc5C3nZw4GpgqSWZexvuOxyCcBoFOyXjxDhZ+pNihlBmTKYIHAtmz9cyQ==",
+      "path": "unitsnet.nanoframework.pressure/5.65.0",
+      "hashPath": "unitsnet.nanoframework.pressure.5.65.0.nupkg.sha512"
+    },
+    "UnitsNet.nanoFramework.RelativeHumidity/5.65.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8JnRN/YYgRfizPuCifUizHHuziFv1QA4x+9AXxduq8tpjYi1QrkMWNQAaTLBAFNrqigHzBewnUQfn4EncQ4O9g==",
+      "path": "unitsnet.nanoframework.relativehumidity/5.65.0",
+      "hashPath": "unitsnet.nanoframework.relativehumidity.5.65.0.nupkg.sha512"
+    },
+    "UnitsNet.nanoFramework.Temperature/5.65.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WhFg3+SF12tpDvY39Gyv+m/9cogVZERYhU/zH30ulvwjlP0jBYyd5qeUS/B7mab6+FvdMJ4aQxnhTMwb1dvOFA==",
+      "path": "unitsnet.nanoframework.temperature/5.65.0",
+      "hashPath": "unitsnet.nanoframework.temperature.5.65.0.nupkg.sha512"
     }
   }
 }

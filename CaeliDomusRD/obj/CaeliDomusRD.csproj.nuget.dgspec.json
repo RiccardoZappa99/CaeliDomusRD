@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\CaeliDomusRD.csproj": {}
+    "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\CaeliDomusRD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\CaeliDomusRD.csproj": {
+    "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\CaeliDomusRD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\CaeliDomusRD.csproj",
+        "projectUniqueName": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\CaeliDomusRD.csproj",
         "projectName": "CaeliDomusRD",
-        "projectPath": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\CaeliDomusRD.csproj",
-        "packagesPath": "C:\\Users\\AryRicky\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\obj\\",
+        "projectPath": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\CaeliDomusRD.csproj",
+        "packagesPath": "C:\\Users\\zappy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\AryRicky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zappy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -42,7 +42,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -74,9 +74,9 @@
               "target": "Package",
               "version": "[2024.2.0, )"
             },
-            "System.Device.Gpio": {
+            "nanoFramework.Iot.Device.Bmxx80": {
               "target": "Package",
-              "version": "[3.2.0-*, )"
+              "version": "[1.2.737, )"
             }
           },
           "imports": [
@@ -95,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

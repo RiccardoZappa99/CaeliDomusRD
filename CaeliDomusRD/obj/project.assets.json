@@ -254,6 +254,103 @@
           }
         }
       },
+      "nanoFramework.CoreLibrary/1.15.5": {
+        "type": "package",
+        "compile": {
+          "lib/mscorlib.dll": {}
+        },
+        "runtime": {
+          "lib/mscorlib.dll": {}
+        }
+      },
+      "nanoFramework.Iot.Device.Bmxx80/1.2.737": {
+        "type": "package",
+        "dependencies": {
+          "UnitsNet.nanoFramework.Duration": "5.65.0",
+          "UnitsNet.nanoFramework.ElectricResistance": "5.65.0",
+          "UnitsNet.nanoFramework.Length": "5.65.0",
+          "UnitsNet.nanoFramework.Pressure": "5.65.0",
+          "UnitsNet.nanoFramework.RelativeHumidity": "5.65.0",
+          "UnitsNet.nanoFramework.Temperature": "5.65.0",
+          "nanoFramework.CoreLibrary": "1.15.5",
+          "nanoFramework.Iot.Device.Common.WeatherHelper": "1.2.715",
+          "nanoFramework.System.Buffers.Binary.BinaryPrimitives": "1.2.699",
+          "nanoFramework.System.Device.I2c": "1.1.16",
+          "nanoFramework.System.Device.Model": "1.2.693",
+          "nanoFramework.System.Math": "1.5.43"
+        },
+        "compile": {
+          "lib/Iot.Device.Bmxx80.dll": {}
+        },
+        "runtime": {
+          "lib/Iot.Device.Bmxx80.dll": {}
+        }
+      },
+      "nanoFramework.Iot.Device.Common.WeatherHelper/1.2.715": {
+        "type": "package",
+        "dependencies": {
+          "UnitsNet.nanoFramework.Length": "5.65.0",
+          "UnitsNet.nanoFramework.Pressure": "5.65.0",
+          "UnitsNet.nanoFramework.RelativeHumidity": "5.65.0",
+          "UnitsNet.nanoFramework.Temperature": "5.65.0",
+          "nanoFramework.CoreLibrary": "1.15.5",
+          "nanoFramework.System.Math": "1.5.43"
+        },
+        "compile": {
+          "lib/Iot.Device.Common.WeatherHelper.dll": {}
+        },
+        "runtime": {
+          "lib/Iot.Device.Common.WeatherHelper.dll": {}
+        }
+      },
+      "nanoFramework.System.Buffers.Binary.BinaryPrimitives/1.2.699": {
+        "type": "package",
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5"
+        },
+        "compile": {
+          "lib/System.Buffers.Binary.BinaryPrimitives.dll": {}
+        },
+        "runtime": {
+          "lib/System.Buffers.Binary.BinaryPrimitives.dll": {}
+        }
+      },
+      "nanoFramework.System.Device.I2c/1.1.16": {
+        "type": "package",
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5"
+        },
+        "compile": {
+          "lib/System.Device.I2c.dll": {}
+        },
+        "runtime": {
+          "lib/System.Device.I2c.dll": {}
+        }
+      },
+      "nanoFramework.System.Device.Model/1.2.693": {
+        "type": "package",
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5"
+        },
+        "compile": {
+          "lib/System.Device.Model.dll": {}
+        },
+        "runtime": {
+          "lib/System.Device.Model.dll": {}
+        }
+      },
+      "nanoFramework.System.Math/1.5.43": {
+        "type": "package",
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5"
+        },
+        "compile": {
+          "lib/System.Math.dll": {}
+        },
+        "runtime": {
+          "lib/System.Math.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -281,22 +378,6 @@
           "lib/net8.0/Renci.SshNet.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "System.Device.Gpio/3.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.Device.Gpio.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/System.Device.Gpio.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net5.0/System.Device.Gpio.targets": {}
         }
       },
       "System.IO.Pipelines/9.0.0": {
@@ -355,6 +436,79 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "UnitsNet.nanoFramework.Duration/5.65.0": {
+        "type": "package",
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5"
+        },
+        "compile": {
+          "lib/UnitsNet.Duration.dll": {}
+        },
+        "runtime": {
+          "lib/UnitsNet.Duration.dll": {}
+        }
+      },
+      "UnitsNet.nanoFramework.ElectricResistance/5.65.0": {
+        "type": "package",
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5"
+        },
+        "compile": {
+          "lib/UnitsNet.ElectricResistance.dll": {}
+        },
+        "runtime": {
+          "lib/UnitsNet.ElectricResistance.dll": {}
+        }
+      },
+      "UnitsNet.nanoFramework.Length/5.65.0": {
+        "type": "package",
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5"
+        },
+        "compile": {
+          "lib/UnitsNet.Length.dll": {}
+        },
+        "runtime": {
+          "lib/UnitsNet.Length.dll": {}
+        }
+      },
+      "UnitsNet.nanoFramework.Pressure/5.65.0": {
+        "type": "package",
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5",
+          "nanoFramework.System.Math": "1.5.43"
+        },
+        "compile": {
+          "lib/UnitsNet.Pressure.dll": {}
+        },
+        "runtime": {
+          "lib/UnitsNet.Pressure.dll": {}
+        }
+      },
+      "UnitsNet.nanoFramework.RelativeHumidity/5.65.0": {
+        "type": "package",
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5"
+        },
+        "compile": {
+          "lib/UnitsNet.RelativeHumidity.dll": {}
+        },
+        "runtime": {
+          "lib/UnitsNet.RelativeHumidity.dll": {}
+        }
+      },
+      "UnitsNet.nanoFramework.Temperature/5.65.0": {
+        "type": "package",
+        "dependencies": {
+          "nanoFramework.CoreLibrary": "1.15.5"
+        },
+        "compile": {
+          "lib/UnitsNet.Temperature.dll": {}
+        },
+        "runtime": {
+          "lib/UnitsNet.Temperature.dll": {}
         }
       }
     }
@@ -795,6 +949,135 @@
         "mysqlconnector.nuspec"
       ]
     },
+    "nanoFramework.CoreLibrary/1.15.5": {
+      "sha512": "u2+GvAp1uxLrGdILACAZy+EVKOs28EQ52j8Lz7599egXZ3GBGejjnR2ofhjMQwzrJLlgtyrsx8nSLngDfJNsAg==",
+      "type": "package",
+      "path": "nanoframework.corelibrary/1.15.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "docs/README.md",
+        "images/nf-logo.png",
+        "lib/mscorlib.dll",
+        "lib/mscorlib.pdbx",
+        "lib/mscorlib.pe",
+        "lib/mscorlib.xml",
+        "nanoframework.corelibrary.1.15.5.nupkg.sha512",
+        "nanoframework.corelibrary.nuspec",
+        "readme.txt"
+      ]
+    },
+    "nanoFramework.Iot.Device.Bmxx80/1.2.737": {
+      "sha512": "jKOXAlG4DQUGyPnp6qWYvj2ZgL52pJAeCKVI4e+CAJPyDKGaLdmLNQxiZhbgVVVeL7Kfdn2SbHeL0zFnauXSKA==",
+      "type": "package",
+      "path": "nanoframework.iot.device.bmxx80/1.2.737",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "docs/README.md",
+        "images/nf-logo.png",
+        "lib/Iot.Device.Bmxx80.dll",
+        "lib/Iot.Device.Bmxx80.pdbx",
+        "lib/Iot.Device.Bmxx80.pe",
+        "lib/Iot.Device.Bmxx80.xml",
+        "nanoframework.iot.device.bmxx80.1.2.737.nupkg.sha512",
+        "nanoframework.iot.device.bmxx80.nuspec"
+      ]
+    },
+    "nanoFramework.Iot.Device.Common.WeatherHelper/1.2.715": {
+      "sha512": "1/GQ7KWSuuuyaQc/uk1mcmEDbKJ/yPqkWyAnwMeUNiQGoHvOI+UTnS3fzfTqgiAld7YbC2uNMoV+EXNQYC3kLA==",
+      "type": "package",
+      "path": "nanoframework.iot.device.common.weatherhelper/1.2.715",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "docs/README.md",
+        "images/nf-logo.png",
+        "lib/Iot.Device.Common.WeatherHelper.dll",
+        "lib/Iot.Device.Common.WeatherHelper.pdbx",
+        "lib/Iot.Device.Common.WeatherHelper.pe",
+        "lib/Iot.Device.Common.WeatherHelper.xml",
+        "nanoframework.iot.device.common.weatherhelper.1.2.715.nupkg.sha512",
+        "nanoframework.iot.device.common.weatherhelper.nuspec"
+      ]
+    },
+    "nanoFramework.System.Buffers.Binary.BinaryPrimitives/1.2.699": {
+      "sha512": "OhR1PNfnToj+1Gun1BA8Uk4mhJW6HWZeW2EKPhHozVlzSLUOUOkjVko2Vje5qCmvA2EuAi8AxKJec/vad9TV0g==",
+      "type": "package",
+      "path": "nanoframework.system.buffers.binary.binaryprimitives/1.2.699",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "docs/README.md",
+        "images/nf-logo.png",
+        "lib/System.Buffers.Binary.BinaryPrimitives.dll",
+        "lib/System.Buffers.Binary.BinaryPrimitives.pdbx",
+        "lib/System.Buffers.Binary.BinaryPrimitives.pe",
+        "lib/System.Buffers.Binary.BinaryPrimitives.xml",
+        "nanoframework.system.buffers.binary.binaryprimitives.1.2.699.nupkg.sha512",
+        "nanoframework.system.buffers.binary.binaryprimitives.nuspec"
+      ]
+    },
+    "nanoFramework.System.Device.I2c/1.1.16": {
+      "sha512": "33YPnlZVjFwx0mOhdKTOggx+TvbjTD3WZ6rkSB33ytF9fHoqfvS1AYr4+ScUHW4z2yE7vxVWBol5mI7iEg4Aiw==",
+      "type": "package",
+      "path": "nanoframework.system.device.i2c/1.1.16",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "docs/README.md",
+        "images/nf-logo.png",
+        "lib/System.Device.I2c.dll",
+        "lib/System.Device.I2c.pdbx",
+        "lib/System.Device.I2c.pe",
+        "lib/System.Device.I2c.xml",
+        "nanoframework.system.device.i2c.1.1.16.nupkg.sha512",
+        "nanoframework.system.device.i2c.nuspec",
+        "readme.txt"
+      ]
+    },
+    "nanoFramework.System.Device.Model/1.2.693": {
+      "sha512": "qqtaeVyJar8vCSV9NdOluPs9DbcCM/j2xH8PDbzbOQXnKJ25+2s2hr48OHvmf1m+FUnXYXRHupf5qhWiB4mSUw==",
+      "type": "package",
+      "path": "nanoframework.system.device.model/1.2.693",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "docs/README.md",
+        "images/nf-logo.png",
+        "lib/System.Device.Model.dll",
+        "lib/System.Device.Model.pdbx",
+        "lib/System.Device.Model.pe",
+        "lib/System.Device.Model.xml",
+        "nanoframework.system.device.model.1.2.693.nupkg.sha512",
+        "nanoframework.system.device.model.nuspec"
+      ]
+    },
+    "nanoFramework.System.Math/1.5.43": {
+      "sha512": "JEOEGHoIpknJFwPjjz77sT5mej2PiT7JTv59jabzFf+d8XYy8Z4SH+NdX00Xc/yDS8LIPuWb7+C245XGUUx99A==",
+      "type": "package",
+      "path": "nanoframework.system.math/1.5.43",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "docs/README.md",
+        "images/nf-logo.png",
+        "lib/System.Math.dll",
+        "lib/System.Math.pdbx",
+        "lib/System.Math.pe",
+        "lib/System.Math.xml",
+        "nanoframework.system.math.1.5.43.nupkg.sha512",
+        "nanoframework.system.math.nuspec",
+        "readme.txt"
+      ]
+    },
     "Newtonsoft.Json/13.0.3": {
       "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
@@ -848,27 +1131,6 @@
         "lib/netstandard2.1/Renci.SshNet.xml",
         "ssh.net.2024.2.0.nupkg.sha512",
         "ssh.net.nuspec"
-      ]
-    },
-    "System.Device.Gpio/3.2.0": {
-      "sha512": "jaL93IC1S2wZfCSLWt8/1lQCp/pDAzDNE5dfLq+pubEhCp0BjDZze6rJMu2KdOuCOeRxHmBuhtWrIRlrTKFsTg==",
-      "type": "package",
-      "path": "system.device.gpio/3.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "README.md",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net5.0/System.Device.Gpio.targets",
-        "lib/net6.0-windows10.0.17763/System.Device.Gpio.dll",
-        "lib/net6.0-windows10.0.17763/System.Device.Gpio.xml",
-        "lib/net6.0/System.Device.Gpio.dll",
-        "lib/net6.0/System.Device.Gpio.xml",
-        "lib/netstandard2.0/System.Device.Gpio.dll",
-        "lib/netstandard2.0/System.Device.Gpio.xml",
-        "system.device.gpio.3.2.0.nupkg.sha512",
-        "system.device.gpio.nuspec"
       ]
     },
     "System.IO.Pipelines/9.0.0": {
@@ -1001,6 +1263,102 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "UnitsNet.nanoFramework.Duration/5.65.0": {
+      "sha512": "/4K4JoEa+EVjBA/+7UK6hCQjFtamjmJudrU50dT1PGUxYR18djnsHgcP9GWS18jnf7dWWPGRny2pXC/58fzzPw==",
+      "type": "package",
+      "path": "unitsnet.nanoframework.duration/5.65.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/UnitsNet.Duration.dll",
+        "lib/UnitsNet.Duration.pdb",
+        "lib/UnitsNet.Duration.pdbx",
+        "lib/UnitsNet.Duration.pe",
+        "lib/UnitsNet.Duration.xml",
+        "unitsnet.nanoframework.duration.5.65.0.nupkg.sha512",
+        "unitsnet.nanoframework.duration.nuspec"
+      ]
+    },
+    "UnitsNet.nanoFramework.ElectricResistance/5.65.0": {
+      "sha512": "IxBYDPOBp2zZCrzxESwigHlnAD5A9uHvYITaLkf3VTnD2QIkFyYCBVMrYz2fh19xllTTzAfF/fKq0C2gi9d6LA==",
+      "type": "package",
+      "path": "unitsnet.nanoframework.electricresistance/5.65.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/UnitsNet.ElectricResistance.dll",
+        "lib/UnitsNet.ElectricResistance.pdb",
+        "lib/UnitsNet.ElectricResistance.pdbx",
+        "lib/UnitsNet.ElectricResistance.pe",
+        "lib/UnitsNet.ElectricResistance.xml",
+        "unitsnet.nanoframework.electricresistance.5.65.0.nupkg.sha512",
+        "unitsnet.nanoframework.electricresistance.nuspec"
+      ]
+    },
+    "UnitsNet.nanoFramework.Length/5.65.0": {
+      "sha512": "F2SvIsRvTWiKHUdg7KGZT/XHA2ZjKQFNkoDDFWW6rgvuBjcftMEvke0fDXz8WI4pacsIhvh8xVJkWy4Js+qi3g==",
+      "type": "package",
+      "path": "unitsnet.nanoframework.length/5.65.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/UnitsNet.Length.dll",
+        "lib/UnitsNet.Length.pdb",
+        "lib/UnitsNet.Length.pdbx",
+        "lib/UnitsNet.Length.pe",
+        "lib/UnitsNet.Length.xml",
+        "unitsnet.nanoframework.length.5.65.0.nupkg.sha512",
+        "unitsnet.nanoframework.length.nuspec"
+      ]
+    },
+    "UnitsNet.nanoFramework.Pressure/5.65.0": {
+      "sha512": "Ci3M0PtwK/ycw47zkni3TpZMzMyEOyc5C3nZw4GpgqSWZexvuOxyCcBoFOyXjxDhZ+pNihlBmTKYIHAtmz9cyQ==",
+      "type": "package",
+      "path": "unitsnet.nanoframework.pressure/5.65.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/UnitsNet.Pressure.dll",
+        "lib/UnitsNet.Pressure.pdb",
+        "lib/UnitsNet.Pressure.pdbx",
+        "lib/UnitsNet.Pressure.pe",
+        "lib/UnitsNet.Pressure.xml",
+        "unitsnet.nanoframework.pressure.5.65.0.nupkg.sha512",
+        "unitsnet.nanoframework.pressure.nuspec"
+      ]
+    },
+    "UnitsNet.nanoFramework.RelativeHumidity/5.65.0": {
+      "sha512": "8JnRN/YYgRfizPuCifUizHHuziFv1QA4x+9AXxduq8tpjYi1QrkMWNQAaTLBAFNrqigHzBewnUQfn4EncQ4O9g==",
+      "type": "package",
+      "path": "unitsnet.nanoframework.relativehumidity/5.65.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/UnitsNet.RelativeHumidity.dll",
+        "lib/UnitsNet.RelativeHumidity.pdb",
+        "lib/UnitsNet.RelativeHumidity.pdbx",
+        "lib/UnitsNet.RelativeHumidity.pe",
+        "lib/UnitsNet.RelativeHumidity.xml",
+        "unitsnet.nanoframework.relativehumidity.5.65.0.nupkg.sha512",
+        "unitsnet.nanoframework.relativehumidity.nuspec"
+      ]
+    },
+    "UnitsNet.nanoFramework.Temperature/5.65.0": {
+      "sha512": "WhFg3+SF12tpDvY39Gyv+m/9cogVZERYhU/zH30ulvwjlP0jBYyd5qeUS/B7mab6+FvdMJ4aQxnhTMwb1dvOFA==",
+      "type": "package",
+      "path": "unitsnet.nanoframework.temperature/5.65.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/UnitsNet.Temperature.dll",
+        "lib/UnitsNet.Temperature.pdb",
+        "lib/UnitsNet.Temperature.pdbx",
+        "lib/UnitsNet.Temperature.pe",
+        "lib/UnitsNet.Temperature.xml",
+        "unitsnet.nanoframework.temperature.5.65.0.nupkg.sha512",
+        "unitsnet.nanoframework.temperature.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -1011,27 +1369,27 @@
       "Microsoft.Extensions.Configuration.Json >= 9.0.0",
       "Newtonsoft.Json >= 13.0.3",
       "SSH.NET >= 2024.2.0",
-      "System.Device.Gpio >= 3.2.0-*"
+      "nanoFramework.Iot.Device.Bmxx80 >= 1.2.737"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AryRicky\\.nuget\\packages\\": {},
+    "C:\\Users\\zappy\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\CaeliDomusRD.csproj",
+      "projectUniqueName": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\CaeliDomusRD.csproj",
       "projectName": "CaeliDomusRD",
-      "projectPath": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\CaeliDomusRD.csproj",
-      "packagesPath": "C:\\Users\\AryRicky\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\obj\\",
+      "projectPath": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\CaeliDomusRD.csproj",
+      "packagesPath": "C:\\Users\\zappy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\AryRicky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zappy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1056,7 +1414,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -1088,9 +1446,9 @@
             "target": "Package",
             "version": "[2024.2.0, )"
           },
-          "System.Device.Gpio": {
+          "nanoFramework.Iot.Device.Bmxx80": {
             "target": "Package",
-            "version": "[3.2.0-*, )"
+            "version": "[1.2.737, )"
           }
         },
         "imports": [
@@ -1109,8 +1467,140 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'nanoFramework.CoreLibrary 1.15.5' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "nanoFramework.CoreLibrary",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'nanoFramework.Iot.Device.Bmxx80 1.2.737' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "nanoFramework.Iot.Device.Bmxx80",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'nanoFramework.Iot.Device.Common.WeatherHelper 1.2.715' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "nanoFramework.Iot.Device.Common.WeatherHelper",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'nanoFramework.System.Buffers.Binary.BinaryPrimitives 1.2.699' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "nanoFramework.System.Buffers.Binary.BinaryPrimitives",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'nanoFramework.System.Device.I2c 1.1.16' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "nanoFramework.System.Device.I2c",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'nanoFramework.System.Device.Model 1.2.693' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "nanoFramework.System.Device.Model",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'nanoFramework.System.Math 1.5.43' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "nanoFramework.System.Math",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'UnitsNet.nanoFramework.Duration 5.65.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "UnitsNet.nanoFramework.Duration",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'UnitsNet.nanoFramework.ElectricResistance 5.65.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "UnitsNet.nanoFramework.ElectricResistance",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'UnitsNet.nanoFramework.Length 5.65.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "UnitsNet.nanoFramework.Length",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'UnitsNet.nanoFramework.Pressure 5.65.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "UnitsNet.nanoFramework.Pressure",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'UnitsNet.nanoFramework.RelativeHumidity 5.65.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "UnitsNet.nanoFramework.RelativeHumidity",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'UnitsNet.nanoFramework.Temperature 5.65.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "UnitsNet.nanoFramework.Temperature",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

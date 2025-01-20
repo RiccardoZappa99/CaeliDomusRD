@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CaeliDomusRD",
+    "\\CaeliDomusRD\\DB",
+    "\\CaeliDomusRD\\DB\\DbModelEntities",
+    "\\CaeliDomusRD\\SensorsReader",
+    "\\CaeliDomusRD\\Services"
   ],
+  "SelectedNode": "\\CaeliDomusRD.sln",
   "PreviewInSolutionExplorer": false
 }

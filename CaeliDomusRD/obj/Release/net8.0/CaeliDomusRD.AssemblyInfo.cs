@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CaeliDomusRD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9640e2fc4e340801b88ac397df5747c2cc215e53")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49f1afd5395984e2a59949d07d9c961a9e972349")]
 [assembly: System.Reflection.AssemblyProductAttribute("CaeliDomusRD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CaeliDomusRD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

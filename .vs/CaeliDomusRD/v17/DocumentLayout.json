@@ -1,70 +1,148 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\",
+  "WorkspaceRootPath": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|c:\\users\\aryricky\\documents\\github\\caelidomusrd\\caelidomusrd\\thermistorreader\\gpioreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|solutionrelative:caelidomusrd\\thermistorreader\\gpioreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|c:\\users\\aryricky\\documents\\github\\caelidomusrd\\caelidomusrd\\db\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|solutionrelative:caelidomusrd\\db\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|c:\\users\\aryricky\\documents\\github\\caelidomusrd\\caelidomusrd\\services\\jsonconfigurationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|solutionrelative:caelidomusrd\\services\\jsonconfigurationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|c:\\users\\aryricky\\documents\\github\\caelidomusrd\\caelidomusrd\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|c:\\users\\zappy\\source\\repos\\riccardozappa99\\caelidomusrd\\caelidomusrd\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|solutionrelative:caelidomusrd\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|c:\\users\\aryricky\\documents\\github\\caelidomusrd\\caelidomusrd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|c:\\users\\zappy\\source\\repos\\riccardozappa99\\caelidomusrd\\caelidomusrd\\sensorsreader\\gpioreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|solutionrelative:caelidomusrd\\sensorsreader\\gpioreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|c:\\users\\zappy\\source\\repos\\riccardozappa99\\caelidomusrd\\caelidomusrd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|solutionrelative:caelidomusrd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|c:\\users\\zappy\\source\\repos\\riccardozappa99\\caelidomusrd\\caelidomusrd\\db\\dbmodelentities\\temperature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|solutionrelative:caelidomusrd\\db\\dbmodelentities\\temperature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|c:\\users\\zappy\\source\\repos\\riccardozappa99\\caelidomusrd\\caelidomusrd\\db\\dbmodelentities\\humidity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|solutionrelative:caelidomusrd\\db\\dbmodelentities\\humidity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|c:\\users\\zappy\\source\\repos\\riccardozappa99\\caelidomusrd\\caelidomusrd\\db\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|solutionrelative:caelidomusrd\\db\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|c:\\users\\zappy\\source\\repos\\riccardozappa99\\caelidomusrd\\caelidomusrd\\services\\jsonconfigurationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|solutionrelative:caelidomusrd\\services\\jsonconfigurationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|c:\\users\\zappy\\source\\repos\\riccardozappa99\\caelidomusrd\\caelidomusrd\\db\\dbmodelentities\\weatherinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|solutionrelative:caelidomusrd\\db\\dbmodelentities\\weatherinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|c:\\users\\zappy\\source\\repos\\riccardozappa99\\caelidomusrd\\caelidomusrd\\db\\dbmodelentities\\lightintensity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97770A0A-8C84-4444-8D4A-9F7A7E7D259D}|CaeliDomusRD\\CaeliDomusRD.csproj|solutionrelative:caelidomusrd\\db\\dbmodelentities\\lightintensity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 120,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JsonConfigurationHandler.cs",
-              "DocumentMoniker": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\Services\\JsonConfigurationHandler.cs",
-              "RelativeDocumentMoniker": "CaeliDomusRD\\Services\\JsonConfigurationHandler.cs",
-              "ToolTip": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\Services\\JsonConfigurationHandler.cs",
-              "RelativeToolTip": "CaeliDomusRD\\Services\\JsonConfigurationHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAACzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T19:38:08.691Z",
-              "EditorCaption": ""
+              "DocumentIndex": 6,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAcwAkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-01-19T22:02:24.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DBContext.cs",
-              "DocumentMoniker": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\DB\\DBContext.cs",
-              "RelativeDocumentMoniker": "CaeliDomusRD\\DB\\DBContext.cs",
-              "ToolTip": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\DB\\DBContext.cs",
-              "RelativeToolTip": "CaeliDomusRD\\DB\\DBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAYAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Weatherinfo.cs",
+              "DocumentMoniker": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\DB\\DbModelEntities\\Weatherinfo.cs",
+              "RelativeDocumentMoniker": "CaeliDomusRD\\DB\\DbModelEntities\\Weatherinfo.cs",
+              "ToolTip": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\DB\\DbModelEntities\\Weatherinfo.cs",
+              "RelativeToolTip": "CaeliDomusRD\\DB\\DbModelEntities\\Weatherinfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T19:07:03.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T21:58:36.935Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Temperature.cs",
+              "DocumentMoniker": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\DB\\DbModelEntities\\Temperature.cs",
+              "RelativeDocumentMoniker": "CaeliDomusRD\\DB\\DbModelEntities\\Temperature.cs",
+              "ToolTip": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\DB\\DbModelEntities\\Temperature.cs",
+              "RelativeToolTip": "CaeliDomusRD\\DB\\DbModelEntities\\Temperature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T21:58:27.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LightIntensity.cs",
+              "DocumentMoniker": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\DB\\DbModelEntities\\LightIntensity.cs",
+              "RelativeDocumentMoniker": "CaeliDomusRD\\DB\\DbModelEntities\\LightIntensity.cs",
+              "ToolTip": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\DB\\DbModelEntities\\LightIntensity.cs",
+              "RelativeToolTip": "CaeliDomusRD\\DB\\DbModelEntities\\LightIntensity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T21:58:18.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Humidity.cs",
+              "DocumentMoniker": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\DB\\DbModelEntities\\Humidity.cs",
+              "RelativeDocumentMoniker": "CaeliDomusRD\\DB\\DbModelEntities\\Humidity.cs",
+              "ToolTip": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\DB\\DbModelEntities\\Humidity.cs",
+              "RelativeToolTip": "CaeliDomusRD\\DB\\DbModelEntities\\Humidity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T21:57:29.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JsonConfigurationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\Services\\JsonConfigurationHandler.cs",
+              "RelativeDocumentMoniker": "CaeliDomusRD\\Services\\JsonConfigurationHandler.cs",
+              "ToolTip": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\Services\\JsonConfigurationHandler.cs",
+              "RelativeToolTip": "CaeliDomusRD\\Services\\JsonConfigurationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAACzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T19:38:08.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\DB\\DBContext.cs",
+              "RelativeDocumentMoniker": "CaeliDomusRD\\DB\\DBContext.cs",
+              "ToolTip": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\DB\\DBContext.cs",
+              "RelativeToolTip": "CaeliDomusRD\\DB\\DBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:07:03.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\appsettings.json",
               "RelativeDocumentMoniker": "CaeliDomusRD\\appsettings.json",
-              "ToolTip": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\appsettings.json",
+              "ToolTip": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\appsettings.json",
               "RelativeToolTip": "CaeliDomusRD\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -73,29 +151,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GpioReader.cs",
-              "DocumentMoniker": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\ThermistorReader\\GpioReader.cs",
-              "RelativeDocumentMoniker": "CaeliDomusRD\\ThermistorReader\\GpioReader.cs",
-              "ToolTip": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\ThermistorReader\\GpioReader.cs",
-              "RelativeToolTip": "CaeliDomusRD\\ThermistorReader\\GpioReader.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAAwF0AAAAUAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\SensorsReader\\GpioReader.cs",
+              "RelativeDocumentMoniker": "CaeliDomusRD\\SensorsReader\\GpioReader.cs",
+              "ToolTip": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\SensorsReader\\GpioReader.cs",
+              "RelativeToolTip": "CaeliDomusRD\\SensorsReader\\GpioReader.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwJAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T17:54:03.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\Program.cs",
               "RelativeDocumentMoniker": "CaeliDomusRD\\Program.cs",
-              "ToolTip": "C:\\Users\\AryRicky\\Documents\\GitHub\\CaeliDomusRD\\CaeliDomusRD\\Program.cs",
+              "ToolTip": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\Program.cs",
               "RelativeToolTip": "CaeliDomusRD\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T10:08:51.136Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
             }
           ]
         }
