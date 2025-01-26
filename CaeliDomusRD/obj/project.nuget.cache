@@ -1,48 +1,48 @@
 {
   "version": 2,
-  "dgSpecHash": "WdMj3Mqog2Q=",
+  "dgSpecHash": "Usswzgv4bw0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\zappy\\source\\repos\\RiccardoZappa99\\CaeliDomusRD\\CaeliDomusRD\\CaeliDomusRD.csproj",
+  "projectFilePath": "/home/bombadil/Documents/GitHub/CaeliDomusRD/CaeliDomusRD/CaeliDomusRD.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\zappy\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\freesql\\3.5.102\\freesql.3.5.102.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\freesql.provider.mysqlconnector\\3.5.102\\freesql.provider.mysqlconnector.3.5.102.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0\\microsoft.extensions.configuration.9.0.0.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0\\microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\9.0.0\\microsoft.extensions.configuration.fileextensions.9.0.0.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\microsoft.extensions.configuration.json\\9.0.0\\microsoft.extensions.configuration.json.9.0.0.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\9.0.0\\microsoft.extensions.fileproviders.abstractions.9.0.0.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\9.0.0\\microsoft.extensions.fileproviders.physical.9.0.0.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\9.0.0\\microsoft.extensions.filesystemglobbing.9.0.0.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0\\microsoft.extensions.primitives.9.0.0.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\mysqlconnector\\2.4.0\\mysqlconnector.2.4.0.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\nanoframework.corelibrary\\1.15.5\\nanoframework.corelibrary.1.15.5.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\nanoframework.iot.device.bmxx80\\1.2.737\\nanoframework.iot.device.bmxx80.1.2.737.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\nanoframework.iot.device.common.weatherhelper\\1.2.715\\nanoframework.iot.device.common.weatherhelper.1.2.715.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\nanoframework.system.buffers.binary.binaryprimitives\\1.2.699\\nanoframework.system.buffers.binary.binaryprimitives.1.2.699.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\nanoframework.system.device.i2c\\1.1.16\\nanoframework.system.device.i2c.1.1.16.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\nanoframework.system.device.model\\1.2.693\\nanoframework.system.device.model.1.2.693.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\nanoframework.system.math\\1.5.43\\nanoframework.system.math.1.5.43.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\ssh.net\\2024.2.0\\ssh.net.2024.2.0.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\system.io.pipelines\\9.0.0\\system.io.pipelines.9.0.0.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\system.text.encodings.web\\9.0.0\\system.text.encodings.web.9.0.0.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\system.text.json\\9.0.0\\system.text.json.9.0.0.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\unitsnet.nanoframework.duration\\5.65.0\\unitsnet.nanoframework.duration.5.65.0.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\unitsnet.nanoframework.electricresistance\\5.65.0\\unitsnet.nanoframework.electricresistance.5.65.0.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\unitsnet.nanoframework.length\\5.65.0\\unitsnet.nanoframework.length.5.65.0.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\unitsnet.nanoframework.pressure\\5.65.0\\unitsnet.nanoframework.pressure.5.65.0.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\unitsnet.nanoframework.relativehumidity\\5.65.0\\unitsnet.nanoframework.relativehumidity.5.65.0.nupkg.sha512",
-    "C:\\Users\\zappy\\.nuget\\packages\\unitsnet.nanoframework.temperature\\5.65.0\\unitsnet.nanoframework.temperature.5.65.0.nupkg.sha512"
+    "/home/bombadil/.nuget/packages/bouncycastle.cryptography/2.4.0/bouncycastle.cryptography.2.4.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/freesql/3.5.102/freesql.3.5.102.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/freesql.provider.mysqlconnector/3.5.102/freesql.provider.mysqlconnector.3.5.102.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/microsoft.extensions.configuration/9.0.0/microsoft.extensions.configuration.9.0.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.0/microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/microsoft.extensions.configuration.fileextensions/9.0.0/microsoft.extensions.configuration.fileextensions.9.0.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/microsoft.extensions.configuration.json/9.0.0/microsoft.extensions.configuration.json.9.0.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/microsoft.extensions.fileproviders.abstractions/9.0.0/microsoft.extensions.fileproviders.abstractions.9.0.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/microsoft.extensions.fileproviders.physical/9.0.0/microsoft.extensions.fileproviders.physical.9.0.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/microsoft.extensions.filesystemglobbing/9.0.0/microsoft.extensions.filesystemglobbing.9.0.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.2/microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/microsoft.extensions.primitives/9.0.0/microsoft.extensions.primitives.9.0.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/mysqlconnector/2.4.0/mysqlconnector.2.4.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/nanoframework.corelibrary/1.15.5/nanoframework.corelibrary.1.15.5.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/nanoframework.iot.device.bmxx80/1.2.737/nanoframework.iot.device.bmxx80.1.2.737.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/nanoframework.iot.device.common.weatherhelper/1.2.715/nanoframework.iot.device.common.weatherhelper.1.2.715.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/nanoframework.system.buffers.binary.binaryprimitives/1.2.699/nanoframework.system.buffers.binary.binaryprimitives.1.2.699.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/nanoframework.system.device.i2c/1.1.16/nanoframework.system.device.i2c.1.1.16.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/nanoframework.system.device.model/1.2.693/nanoframework.system.device.model.1.2.693.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/nanoframework.system.math/1.5.43/nanoframework.system.math.1.5.43.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/ssh.net/2024.2.0/ssh.net.2024.2.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/system.io.pipelines/9.0.0/system.io.pipelines.9.0.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/system.text.encodings.web/9.0.0/system.text.encodings.web.9.0.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/system.text.json/9.0.0/system.text.json.9.0.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/unitsnet.nanoframework.duration/5.65.0/unitsnet.nanoframework.duration.5.65.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/unitsnet.nanoframework.electricresistance/5.65.0/unitsnet.nanoframework.electricresistance.5.65.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/unitsnet.nanoframework.length/5.65.0/unitsnet.nanoframework.length.5.65.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/unitsnet.nanoframework.pressure/5.65.0/unitsnet.nanoframework.pressure.5.65.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/unitsnet.nanoframework.relativehumidity/5.65.0/unitsnet.nanoframework.relativehumidity.5.65.0.nupkg.sha512",
+    "/home/bombadil/.nuget/packages/unitsnet.nanoframework.temperature/5.65.0/unitsnet.nanoframework.temperature.5.65.0.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Il pacchetto 'nanoFramework.CoreLibrary 1.15.5' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "message": "Package 'nanoFramework.CoreLibrary 1.15.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.CoreLibrary",
       "targetGraphs": [
         "net8.0"
@@ -52,7 +52,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Il pacchetto 'nanoFramework.Iot.Device.Bmxx80 1.2.737' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "message": "Package 'nanoFramework.Iot.Device.Bmxx80 1.2.737' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.Iot.Device.Bmxx80",
       "targetGraphs": [
         "net8.0"
@@ -62,7 +62,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Il pacchetto 'nanoFramework.Iot.Device.Common.WeatherHelper 1.2.715' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "message": "Package 'nanoFramework.Iot.Device.Common.WeatherHelper 1.2.715' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.Iot.Device.Common.WeatherHelper",
       "targetGraphs": [
         "net8.0"
@@ -72,7 +72,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Il pacchetto 'nanoFramework.System.Buffers.Binary.BinaryPrimitives 1.2.699' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "message": "Package 'nanoFramework.System.Buffers.Binary.BinaryPrimitives 1.2.699' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.System.Buffers.Binary.BinaryPrimitives",
       "targetGraphs": [
         "net8.0"
@@ -82,7 +82,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Il pacchetto 'nanoFramework.System.Device.I2c 1.1.16' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "message": "Package 'nanoFramework.System.Device.I2c 1.1.16' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.System.Device.I2c",
       "targetGraphs": [
         "net8.0"
@@ -92,7 +92,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Il pacchetto 'nanoFramework.System.Device.Model 1.2.693' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "message": "Package 'nanoFramework.System.Device.Model 1.2.693' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.System.Device.Model",
       "targetGraphs": [
         "net8.0"
@@ -102,7 +102,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Il pacchetto 'nanoFramework.System.Math 1.5.43' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "message": "Package 'nanoFramework.System.Math 1.5.43' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.System.Math",
       "targetGraphs": [
         "net8.0"
@@ -112,7 +112,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Il pacchetto 'UnitsNet.nanoFramework.Duration 5.65.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "message": "Package 'UnitsNet.nanoFramework.Duration 5.65.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "UnitsNet.nanoFramework.Duration",
       "targetGraphs": [
         "net8.0"
@@ -122,7 +122,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Il pacchetto 'UnitsNet.nanoFramework.ElectricResistance 5.65.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "message": "Package 'UnitsNet.nanoFramework.ElectricResistance 5.65.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "UnitsNet.nanoFramework.ElectricResistance",
       "targetGraphs": [
         "net8.0"
@@ -132,7 +132,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Il pacchetto 'UnitsNet.nanoFramework.Length 5.65.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "message": "Package 'UnitsNet.nanoFramework.Length 5.65.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "UnitsNet.nanoFramework.Length",
       "targetGraphs": [
         "net8.0"
@@ -142,7 +142,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Il pacchetto 'UnitsNet.nanoFramework.Pressure 5.65.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "message": "Package 'UnitsNet.nanoFramework.Pressure 5.65.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "UnitsNet.nanoFramework.Pressure",
       "targetGraphs": [
         "net8.0"
@@ -152,7 +152,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Il pacchetto 'UnitsNet.nanoFramework.RelativeHumidity 5.65.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "message": "Package 'UnitsNet.nanoFramework.RelativeHumidity 5.65.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "UnitsNet.nanoFramework.RelativeHumidity",
       "targetGraphs": [
         "net8.0"
@@ -162,7 +162,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Il pacchetto 'UnitsNet.nanoFramework.Temperature 5.65.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "message": "Package 'UnitsNet.nanoFramework.Temperature 5.65.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "UnitsNet.nanoFramework.Temperature",
       "targetGraphs": [
         "net8.0"

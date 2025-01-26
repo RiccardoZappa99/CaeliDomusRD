@@ -31,8 +31,8 @@ namespace CaeliDomusRD
         //public static double[] VoltageSampling { get => _voltageSampling; set => _voltageSampling = value; }
         //public static int PinNumber { get => _pinNumber; set => _pinNumber = value; }
 
-        private static readonly int _bmeBusID = 0;
-        private static readonly int _deviceAddress = 0;
+        private static readonly int _bmeBusID = 1;
+        private static readonly int _deviceAddress = 0x77;
 
         public static int BmeBusID { get => _bmeBusID; }
         public static int DeviceAddress { get => _deviceAddress; }
@@ -100,33 +100,32 @@ namespace CaeliDomusRD
             //protocollo i2c
             I2cDevice _pi5Bme680 = new I2cDevice(_pi5Bme680ProtocolSettings);
             //sensore 
-            Bme680Reader _bme680TemperatureReader = new Bme680Reader(_pi5Bme680);
+            Bme680Reader _bme680AmbientReader = new Bme680Reader(_pi5Bme680);
 
-            float _tempValue = (float)_bme680TemperatureReader.Read().Temperature.DegreesCelsius;
-            float _humidityValue = (float)_bme680TemperatureReader.Read().Humidity.Percent;
-            float _pressureValue = (float)_bme680TemperatureReader.Read().Pressure.Atmospheres;
+            float _tempValue = (float)_bme680AmbientReader.Read().Temperature.DegreesCelsius;
+            float _humidityValue = (float)_bme680AmbientReader.Read().Humidity.Percent;
+            float _pressureValue = (float)_bme680AmbientReader.Read().Pressure.Atmospheres;
+            //in sviluppo
+            float _lightIntensity = LightMeasurement();  
             DateTime _curentTime = DateTime.Now;
             //scrivo a db
             using (DB _RD = new DB())
             {
                 //entità temperatura
-                DbModelEntities.Temperature _temperature = new DbModelEntities.Temperature();
-                _temperature.TemperatureValue = _tempValue;
-                _temperature.ReadTime = _curentTime;
-                //entità umidità
-                DbModelEntities.Humidity _humidity = new DbModelEntities.Humidity();
-                _humidity.HumidityValue = _humidityValue;
-                _humidity.ReadTime = _curentTime;
-                //entità pressione
-                //DbModelEntities.Pressure _pressure = new DbModelEntities.Pressure();
-                //_pressure.PressureValue = _pressureValue;
-                //_pressure.ReadTime = _curentTime;
+                HomeSetting _homeSetting = new DbModelEntities.HomeSetting()
+                {
+                    Temperature = _tempValue,
+                    Humidity = _humidityValue,
+                    Pressure = _pressureValue,
+                    LightIntensity = _lightIntensity,
+                    ReadTime = _curentTime
+                };
+ 
 
                 try
                 {
-                    _RD.Db.Insert<DbModelEntities.Temperature>(_temperature).ExecuteAffrows();
-                    _RD.Db.Insert<Humidity>().ExecuteAffrows();
-                    //_RD.Db.Insert<Pressure>().ExecuteAffrows();    //creare tabella in db
+                    _RD.Db.Insert<HomeSetting>(_homeSetting).ExecuteAffrows();
+                    //weather info
                 }
                 catch (Exception e)
                 {
@@ -134,14 +133,11 @@ namespace CaeliDomusRD
                 }
 
             }
-
-
-
         }
 
-        public static void LightMeasurement()
+        public static float LightMeasurement()
         {
-            //logiche di misurazione della luce  
+            return 0.0f;//logiche di misurazione della luce  
         }
     }
 }
